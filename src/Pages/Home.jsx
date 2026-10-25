@@ -131,7 +131,7 @@ function Home() {
         </button>
       </form>
 {loading &&   <p className='text-center py-6 text-muted'>Loading...</p>}
-{!loading && recipes.length === 0 && <p className='text-center py-6 text-muted'>`No receipe found ${searchQuery}`</p>}
+{!loading && recipes.length === 0 && <p className='text-center py-6 text-muted'>{`No receipe found "${searchQuery}"`}</p>}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {recipes.map((recipe) => (

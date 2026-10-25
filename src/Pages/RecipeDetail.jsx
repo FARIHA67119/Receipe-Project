@@ -52,7 +52,7 @@ export default function RecipeDetail() {
     return (
 <main className="max-w-6xl mx-auto px-4 py-8">
 
-      <Link to={"/"} href="#" className="text-accent hover:underline inline-flex items-center gap-1 mb-6">
+      <Link to="/" className="text-accent hover:underline inline-flex items-center gap-1 mb-6">
         <svg className="w-4 h-4 stroke-current fill-none" strokeWidth="2" viewBox="0 0 24 24">
           <line x1="19" y1="12" x2="5" y2="12" />
           <polyline points="12 19 5 12 12 5" />
